@@ -19,10 +19,11 @@
         <property name="mappings">
             <props>
                 <prop key="index.htm">indexController</prop>
+                <prop key="manage.htm">manageController</prop>
             </props>
         </property>
     </bean>
-
+    
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/jsp/"
@@ -34,5 +35,9 @@
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
+    
+    <bean name="manageController"
+      class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+      p:viewName="Manage" />
 
 </beans>
