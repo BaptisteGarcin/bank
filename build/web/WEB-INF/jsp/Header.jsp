@@ -10,3 +10,14 @@
 <title>JSP Page</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.js"></script>
+  <style type="text/css">
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+  </style>
