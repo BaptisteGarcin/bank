@@ -6,6 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
+<<<<<<< HEAD
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
@@ -33,3 +34,10 @@
   <a class="item">Login</a>
   <a class="item">Signup</a>
 </div>
+=======
+<ul>
+    <li><a href="/test/">Accueil</a></li>
+    <li><a href="/test/bonjour">Bonjour</a></li>
+    <li>Page 3</li>
+</ul>
+>>>>>>> 57e869f8d8832d55873fd406254075e523667649
