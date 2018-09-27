@@ -12,26 +12,20 @@
         <%@ include file="Navigation.jsp" %>
          <div class="ui section divider"></div>
 
-  <div class="ui top attached segment">Segment</div>
-  <div class="ui attached three item menu">
-    <a class="item">Item</a>
-    <a class="item">Item</a>
-    <a class="item">Item</a>
-  </div>
   <div class="ui attached segment">
-    1
+    Account type : 
   </div>
   <div class="ui attached icon info message">
     <i class="help circle icon"></i>
     <div class="content">
-      Message
+      You have $30.00 left
     </div>
   </div>
   <table class="ui bottom attached table">
     <thead>
-      <th>Header</th>
-      <th>Header</th>
-      <th>Header</th>
+      <th>Date</th>
+      <th>Label</th>
+      <th>Amount</th>
     </thead>
     <tbody>
       <tr>

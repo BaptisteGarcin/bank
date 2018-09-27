@@ -23,6 +23,7 @@
                 <prop key="login.htm">loginController</prop>
                 <prop key="signup.htm">signupController</prop>
                 <prop key="wire.htm">wireController</prop>
+                <prop key="account.htm">accountController</prop>
             </props>
         </property>
     </bean>
@@ -53,5 +54,9 @@
             
                       <bean name="wireController"
       class="org.springframework.web.servlet.mvc.ParameterizableViewController"
-      p:viewName="Wire" />  
+      p:viewName="Wire" /> 
+                      
+      <bean name="accountController"
+      class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+      p:viewName="Account" />   
 </beans>
