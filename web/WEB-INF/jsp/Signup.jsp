@@ -16,7 +16,7 @@
     <body>
         <h1>Hello World!</h1>
         <button class="ui button">
-  Follow
-</button>
+        Follow
+      </button>
     </body>
 </html>
