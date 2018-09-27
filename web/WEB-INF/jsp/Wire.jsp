@@ -17,14 +17,14 @@
                     <div class="ui fluid search selection dropdown" multiple="">
                         <input type="hidden" name="country">
                         <i class="dropdown icon"></i>
-                        <div class="default text">Select Who to Transfer to</div>
+                        <div class="default text">Select From which account</div>
                         <div class="menu">
-                            <div class="item" data-value="af">Michel</div>
-                            <div class="item" data-value="ax">Franck</div>
+                            <div class="item" data-value="af">CCP</div>
+                            <div class="item" data-value="ax">PEL</div>
                         </div>
                     </div>
                     <div class="field">
-                        <label>To</label>
+                        <label>Select Who to Transfer to</label>
                         <input type="text" placeholder="Full Name" />
                     </div>
                     <div class=" field">
