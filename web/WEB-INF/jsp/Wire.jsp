@@ -9,19 +9,20 @@
 <html>
     <%@ include file="Header.jsp" %>
     <body>
-
         <%@ include file="Navigation.jsp" %>
         <h1>Wire!</h1>
         <div class="ui centered grid">
             <div class="column">
-                <div class="ui form">      
-                    <select class="ui fluid search dropdown" multiple="">
-                        <option value="">State</option>
-                        <option value="AL">Alabama</option>
-                        <option value="AK">Alaska</option>
-                        <option value="AZ">Arizona</option>
-                        <option value="AR">Arkansas</option>
-                    </select>
+                <div class="ui form">  
+                    <div class="ui fluid search selection dropdown" multiple="">
+                        <input type="hidden" name="country">
+                        <i class="dropdown icon"></i>
+                        <div class="default text">Select Who to Transfer to</div>
+                        <div class="menu">
+                            <div class="item" data-value="af">Michel</div>
+                            <div class="item" data-value="ax">Franck</div>
+                        </div>
+                    </div>
                     <div class="field">
                         <label>To</label>
                         <input type="text" placeholder="Full Name" />

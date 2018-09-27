@@ -78,6 +78,13 @@
           }
         })
       ;
+      $('.ui.selection.dropdown')
+  .dropdown({
+    clearable: true,
+    placeholder: 'State',
+    allowAdditions: false,
+  })
+;
     })
   ;
   </script>
