@@ -9,17 +9,17 @@
 <!-- Following Menu -->
 <div class="ui large top hidden menu">
   <div class="ui container">
-    <a class="active item" href="index.htm">Home</a>
-    <a class="item" href="manage.htm">Manage</a>
-    <a class="item" href="">Company</a>
-    <a class="item" href="">Careers</a>
+    <a class="active item" href="login.htm">Home</a>
+    <a class="item" href="manage.htm">Accounts</a>
+    <a class="item" href="wire.htm">Wire</a>
+    <a class="item" href="">Deposit</a>
     
     <div class="right menu">
       <div class="item">
-        <a class="ui button">Log in</a>
+        <a class="ui button" href="login.htm">Log in</a>
       </div>
       <div class="item">
-        <a class="ui primary button">Sign Up</a>
+        <a class="ui primary button" href="signup.htm">Sign Up</a>
       </div>
     </div>
     

@@ -7,11 +7,11 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
+        <%@ include file="Header.jsp" %>
+
     <body>
+                <%@ include file="Navigation.jsp" %>
+
         <h1>Hello World!</h1>
         <div class="ui middle aligned center aligned grid">
   <div class="column">

@@ -20,6 +20,9 @@
             <props>
                 <prop key="index.htm">indexController</prop>
                 <prop key="manage.htm">manageController</prop>
+                <prop key="login.htm">loginController</prop>
+                <prop key="signup.htm">signupController</prop>
+                <prop key="wire.htm">wireController</prop>
             </props>
         </property>
     </bean>
@@ -36,8 +39,19 @@
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
     
-    <bean name="manageController"
+    <bean name="loginController"
+      class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+      p:viewName="Login" />
+
+        <bean name="manageController"
       class="org.springframework.web.servlet.mvc.ParameterizableViewController"
       p:viewName="Manage" />
-
+        
+            <bean name="signupController"
+      class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+      p:viewName="Signup" />
+            
+                      <bean name="wireController"
+      class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+      p:viewName="Wire" />  
 </beans>
